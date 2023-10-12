@@ -7,7 +7,7 @@ const config = (): ClientConfig => {
       user: process.env.DB_TEST_USER,
       password: process.env.DB_TEST_PASSWORD,
       host: process.env.DB_TEST_HOST,
-      database: process.env.DB_TEST,
+      database: process.env.DB_TEST_DATABASE,
       port: parseInt(process.env.DB_TEST_PORT!),
     };
   }
@@ -16,7 +16,7 @@ const config = (): ClientConfig => {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     host: process.env.DB_HOST,
-    database: process.env.DB,
+    database: process.env.DB_DATABASE,
     port: parseInt(process.env.DB_PORT!),
   };
 };
