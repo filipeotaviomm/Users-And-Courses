@@ -8,7 +8,6 @@ import {
   TAllUsersCourse,
   TAllusersCourseResult,
 } from "../interfaces/courses.interface";
-import { TUserCourseResult } from "../interfaces/users.interface";
 
 export const createCourseService = async (
   body: TCourseCreate

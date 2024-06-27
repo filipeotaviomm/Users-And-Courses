@@ -29,7 +29,7 @@ export const handleErrors = (
   console.log(error);
   return res.status(500).json({
     message: "Internal server error.",
-    errorMessage: error.message,
     errorName: error.name,
+    errorMessage: error.message,
   });
 };
